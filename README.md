@@ -1,5 +1,5 @@
 # modern-architectures-of-neural-networks
-introduction to modern neural network architectures
+Знакомство с некоторыми современными архитектурами нейронных сетей. 
 
 ## 1. CAE (Conditional Autoencoder) - см. `conditional_autoencoder.ipynb`
 Был модифицирован автоэнкодер и добавлен к нему слой-условие. В качестве датасета использовался fashionMNIST.
