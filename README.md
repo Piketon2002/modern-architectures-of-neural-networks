@@ -21,4 +21,8 @@ question answering с использованием LoRA.
 
 ## 6. DiT (Diffusion Transformer) - `DiT.ipynb`
 Был запущен DiT из diffusers и сгенерировано несколько изображений. Было произведено исследование того, как поменяется генерация при варьировании гиперпараметров генерации.
-Также представлен краткий обзор [статьи](https://arxiv.org/pdf/2212.09748). 
+Также представлен краткий обзор [статьи](https://arxiv.org/pdf/2212.09748).
+
+## 7. DDIM (Denoising Diffusion Implicit Model) - `DDIM.ipynb`
+Был реализована концепция DDIM. Использовался U-Net с [весами](https://drive.google.com/file/d/1QWGWs8LogSykpphaDzi4r-h---cW8Xwu/view?usp=sharing) 
+в качестве модели, которая предсказывала шум, добавленный на определенном шаге forward (диффузионного) процесса.
